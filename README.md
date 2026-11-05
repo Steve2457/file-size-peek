@@ -12,16 +12,6 @@ Download `file-size-peek-0.1.0.vsix` from [GitHub Releases](https://github.com/S
 
 Local workspaces on Windows, macOS and Linux are supported. For Remote-SSH, WSL or Dev Containers, install the extension in the **remote extension host**. Size scans run on the machine where the files reside.
 
-This GitHub repository is private. Sign in with an account that has repository access to view the source or download release assets.
-
-The temporary extension ID is `v-junanhu.file-size-peek`. Installing a VSIX does not require a Marketplace account. The publisher identifier is temporarily `v-junanhu`; the extension has not been published to the VS Code Marketplace. File Size Peek is independent of Node Panel.
-
-## Language
-
-English and Simplified Chinese are supported. The extension uses VS Code's display language. To change it, run **Configure Display Language** in the Command Palette and follow VS Code's prompts.
-
-Use the links at the top of this page to switch between the English and Chinese documentation.
-
 ## How sizes are calculated
 
 - Files use the logical byte size reported by the filesystem, displayed in B, KiB, MiB, GiB and larger units. 1 KiB = 1024 bytes.
