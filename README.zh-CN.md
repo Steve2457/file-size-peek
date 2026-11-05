@@ -6,6 +6,12 @@
 
 通知展示大小和精确字节数。文件夹会递归统计子目录及隐藏文件，并展示文件数量。点击 **复制结果** 可复制大小与完整路径；**查看详情** 打开输出面板。大目录统计过程中可以取消。重新对另一项执行命令会取消上一次统计。
 
+## 使用截图
+
+![文件夹右键查看大小菜单与实际大小通知](images/usage.png)
+
+在 Remote-SSH 工作区中实际运行：左侧为文件资源管理器的右键菜单，右侧为文件夹大小通知。两处截图均已裁剪，便于阅读。
+
 ## 安装
 
 在 [GitHub Releases](https://github.com/Steve2457/file-size-peek/releases) 下载 `file-size-peek-0.1.0.vsix`。运行 **Extensions: Install from VSIX…（扩展：从 VSIX 安装）** 并选择安装包。

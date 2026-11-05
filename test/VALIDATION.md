@@ -7,4 +7,4 @@
 - VS Code API harness checks Explorer command registration, remote paths, Chinese/English notifications, copy/details actions, cancellation, error messages, active-editor fallback and superseding an earlier scan.
 - `node --check extension.js` and `node --check size.js` passed.
 - `@vscode/vsce@4.1.0 package` succeeded. Installable package identity: `v-junanhu.file-size-peek`, version 0.1.0; no runtime dependencies. Test files are excluded.
-- Native VS Code UI and a live SSH extension host have not been exercised. Nothing was installed into the user's VS Code profile or published to Marketplace.
+- The README screenshot was captured from an existing installed extension in a Remote-SSH workspace. Explorer's Show Size action was invoked on a folder; the real notification showed its size, byte count, file count, skipped links and Copy result / Details controls. This verifies the basic remote folder workflow; other remote cases remain outside this check.

@@ -6,6 +6,12 @@ Right-click a file or folder in VS Code's Explorer and select **Show Size**.
 
 The notification shows a readable size and the exact byte count. For folders, the extension recursively counts files in subfolders, including hidden files, and displays the file count. Select **Copy result** to copy the size and full path, or **Details** to open the output panel. Folder scans can be cancelled; starting another scan cancels the previous one.
 
+## Screenshot
+
+![Explorer Show Size menu and a real folder-size notification](images/usage.png)
+
+Actual usage in a Remote-SSH workspace: the Explorer context menu on the left and the folder-size notification on the right. Both views are cropped for readability.
+
 ## Install
 
 Download `file-size-peek-0.1.0.vsix` from [GitHub Releases](https://github.com/Steve2457/file-size-peek/releases). In VS Code, run **Extensions: Install from VSIX…** and select the package.
