@@ -1,0 +1,4 @@
+{
+  "description": "Right-click a file or folder in Explorer to check its size. Local and Remote-SSH support, cancellable folder scans.",
+  "command.showSize": "Show Size"
+}

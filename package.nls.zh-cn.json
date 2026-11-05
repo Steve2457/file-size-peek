@@ -1,0 +1,4 @@
+{
+  "description": "右键文件或文件夹查看大小。支持本地和 Remote-SSH，文件夹统计可取消。",
+  "command.showSize": "查看大小"
+}

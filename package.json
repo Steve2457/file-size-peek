@@ -1,0 +1,40 @@
+{
+  "name": "file-size-peek",
+  "displayName": "File Size Peek",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "v-junanhu",
+  "author": "v-junanhu",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Steve2457/file-size-peek.git" },
+  "homepage": "https://github.com/Steve2457/file-size-peek",
+  "bugs": { "url": "https://github.com/Steve2457/file-size-peek/issues" },
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Other"],
+  "keywords": ["file-size", "folder-size", "explorer", "remote-ssh"],
+  "main": "./extension.js",
+  "activationEvents": ["onCommand:fileSizePeek.showSize"],
+  "extensionKind": ["workspace"],
+  "capabilities": {
+    "untrustedWorkspaces": { "supported": true },
+    "virtualWorkspaces": { "supported": false }
+  },
+  "contributes": {
+    "commands": [
+      { "command": "fileSizePeek.showSize", "title": "%command.showSize%" }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "fileSizePeek.showSize",
+          "when": "resourceScheme == file || resourceScheme == vscode-remote",
+          "group": "navigation@90"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "package": "npx --yes @vscode/vsce@4.1.0 package --no-dependencies --allow-missing-repository"
+  }
+}
