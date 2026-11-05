@@ -12,10 +12,6 @@
 
 支持 Windows、macOS 和 Linux 本地工作区。使用 Remote-SSH、WSL 或 Dev Containers 时，请安装到**远程扩展主机**；统计在文件所在主机执行。
 
-GitHub 仓库为私有，查看源码及下载 Release 附件需要使用有仓库访问权限的账号登录。
-
-临时扩展 ID 为 `v-junanhu.file-size-peek`，不需要 Marketplace 账号即可安装 VSIX。发布者标识暂用 `v-junanhu`，扩展尚未发布到 VS Code Marketplace。本插件独立于 Node Panel。
-
 ## 语言
 
 插件支持英文和简体中文，界面跟随 VS Code 的显示语言。切换时，在命令面板运行 **Configure Display Language（配置显示语言）**，按 VS Code 提示操作。
